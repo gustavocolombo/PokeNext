@@ -1,0 +1,37 @@
+.headerContent{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  background: #333;
+  color: #fff;
+
+  ul{
+    display: flex;
+    list-style: none;
+
+    li{
+      margin-left: 1rem;
+
+     a{
+       padding: 5px;
+       transition: 0.4s;
+       border-bottom: 2px solid transparent;
+     }
+
+     a:hover{
+       border-color: #fff;
+     }
+    }
+  }
+}
+
+.hero{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  h1{
+    margin-left: 1rem;
+  }
+}
